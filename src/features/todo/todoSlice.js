@@ -11,6 +11,7 @@ export const todoSlice = createSlice({
       };
 
       state.push(todo);
+      // return [...state, todo] is also good
     },
   },
 });
